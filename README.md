@@ -46,7 +46,7 @@ src/
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/goutam1234567890/user_dashboard
    cd user-management-dashboard
    npm install
    npm start
