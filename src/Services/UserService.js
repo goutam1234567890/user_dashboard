@@ -25,7 +25,7 @@ export async function getAllUsers(pageSize, pageNumber) {
     return await fetch(url, options);
 }
 
-export async function deleteUser(id) {
+export async function DeleteUser(id) {
     const options = {
         method: "DELETE"
     }
