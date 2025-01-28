@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import UserForm from "../UserForm";
 import './index.css';
-import { getAllUsers } from '../../Services/UserService'
+import { getAllUsers, DeleteUser } from '../../Services/UserService'
 
 const Dashboard = () => {
     const [users, setUsers] = useState([]);
@@ -55,9 +55,9 @@ const Dashboard = () => {
         }
     };
 
-    const deleteUser = async (id) => {
+    const handleDeleteUser = async (id) => {
         try {
-            const response = await deleteUser(id);
+            const response = await DeleteUser(id);
 
             if (response.ok) {
                 setUsers((prevUsers) => prevUsers.filter((user) => user.id !== id));
@@ -126,7 +126,7 @@ const Dashboard = () => {
                                         </button>
                                         <button
                                             className="tbody-delete-button"
-                                            onClick={() => deleteUser(user.id)}
+                                            onClick={() => handleDeleteUser(user.id)}
                                         >
                                             Delete
                                         </button>
