@@ -1,0 +1,11 @@
+.Header-container {
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Header-head {
+  font-size: 1.25rem;
+  font-weight: bold;
+}

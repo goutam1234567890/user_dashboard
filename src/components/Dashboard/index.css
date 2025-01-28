@@ -1,0 +1,114 @@
+.dashboard-container {
+  margin: 3rem auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.addUser-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-container1 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.table-head {
+  background-color: #e5e7eb;
+}
+
+.table-head-description {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.tbody-row {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tbody-description {
+  padding: 0.75rem;
+}
+
+.tbody-description-buttons {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.tbody-edit-button {
+  color: #2563eb;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.tbody-edit-button:hover {
+  text-decoration: underline;
+}
+
+.tbody-delete-button {
+  color: #dc2626;
+  text-decoration: none;
+}
+
+.tbody-delete-button:hover {
+  text-decoration: underline;
+}
+
+.formopen-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formopen-container1 {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.prev-button {
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.next-button {
+  height: 40px;
+  width: 80px;
+  margin: 10px 10px 0px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
